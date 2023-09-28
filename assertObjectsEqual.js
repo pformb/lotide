@@ -24,7 +24,7 @@ const eqObjects = function(object1, object2) {
   /* Use for..of (since the keys are an array) to loop through object1 keys
   and declare keys/values to variable "items" */
   for (let items of Object.keys(object1)) {
-    /* If object1's items and object2's items are arrays, use equArrays to compare them
+    /* If object1's items and object2's items are arrays, use eqArrays to compare them
     if eqArrays finds the arrays to be the same values then return true, if they are not arrays
     or not the same values then skip(continue) this code */
     if (Array.isArray(object1[items]) && Array.isArray(object1[items])) {

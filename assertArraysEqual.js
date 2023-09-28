@@ -1,3 +1,4 @@
+// Use eqArrays for assertArraysEqual below
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
@@ -10,6 +11,7 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
+// Create function to test eqArrays and if does return true, console log PASS, if not FAIL
 const assertArraysEqual = function(eqArrays) {
   if (eqArrays !== true) {
     console.log(`🛑🛑🛑`);

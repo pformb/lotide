@@ -36,9 +36,10 @@ const map = function(array, callback) {
 };
 
 // Test Code:
-/* Declare a variable called results1 which equals the map function. The map functiontakes in words
-as the array, and an anon function as the callback. The callback function in this case, uses word as a
-parameter which takes the 0 index of each word, otherwise known as the first letter. */
+
+/* Declare a variable called results1 which equals the map function. The map function takes in words
+as the array, and an anon function as the callback. The anon callback function in this case, uses 
+word as a parameter which returns the 0 index of each word, aka the first letter. */
 const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);
 assertArraysEqual(eqArrays(results1, ['g', 'c', 't', 'm', 't']));

@@ -1,24 +1,3 @@
-// Test Functions:
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = function(eqArrays) {
-  if (eqArrays !== true) {
-    console.log(`🛑🛑🛑`);
-  } else {
-    console.log(`✅✅✅`);
-  }
-};
-
 // Function that returns the middle value(s) inside of an array
 const middle = function(array) {
   // Declare a variable called len to array.length
@@ -41,11 +20,4 @@ const middle = function(array) {
   }
 };
 
-// Test Code:
-
-console.log(middle([1])); // => []
-console.log(middle([1, 2])); // => []
-console.log(middle([1, 2, 3])); // => [2]
-console.log(middle([1, 2, 3, 4, 5])); // => [3]
-console.log(middle([1, 2, 3, 4])); // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
+module.exports = middle;

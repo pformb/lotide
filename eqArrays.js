@@ -1,13 +1,3 @@
-// eqArrays.js
-// Use assertEqual to test if eqArrays function is working correctly. 
-const assertEqual = function(actual, expected) {
-  
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
 // Function to check if two arrays are the same
 const eqArrays = function(arr1, arr2) {
   // If array 1 length is not equal to array 2 length, return false.  Stop computing immediately. 
@@ -25,12 +15,6 @@ const eqArrays = function(arr1, arr2) {
   // If the code makes it this far, all elements are the same in both arrays, so, return True
   return true;
 };
+
+module.exports = eqArrays;
   
-// Test Code: 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
-
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => false
-
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);

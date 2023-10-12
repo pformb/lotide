@@ -1,4 +1,3 @@
-// Function to check if two arrays are the same
 const eqArrays = function(arr1, arr2) {
   // If array 1 length is not equal to array 2 length, return false.  Stop computing immediately. 
   if (arr1.length !== arr2.length) {

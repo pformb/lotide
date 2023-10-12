@@ -1,4 +1,3 @@
-// Function that returns the middle value(s) inside of an array
 const middle = function(array) {
   // Declare a variable called len to array.length
   let len = array.length;

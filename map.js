@@ -1,4 +1,3 @@
-// Function named map that takes in an array and a callback function as parameters
 const map = function(array, callback) {
   // Declare a variable called results thats an empty array
   const results = [];

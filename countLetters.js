@@ -1,5 +1,3 @@
-/* Function that takes each letter from a string and puts them into a object as a key, then counts 
-the number of that letter in string and adds them as the value of key */
 const countLetters = function(string) {
   // Delcare a variable called results as an empty object.
   const results = {};

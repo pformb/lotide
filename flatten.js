@@ -1,5 +1,3 @@
-/* Function that takes the values from an array and the values inside nested arrays inside that array 
-and moves them to newArray */
 const flatten = function(array) {
   // Declare a variable called newArray that is an empty array. 
   const newArray = [];

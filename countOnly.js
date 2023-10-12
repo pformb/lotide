@@ -1,6 +1,5 @@
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-// Count the names that are marked true in itemsToCount(object) in allItems(array)
 const countOnly = function(allItems, itemsToCount) {
 // Declare a variable of an empy object
   const results = {};

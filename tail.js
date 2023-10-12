@@ -1,4 +1,3 @@
-// Function to return everything except the 0 index position in an array
 const tail = function(array) {
   // Declare a variable called newArray as an empty array
   const newArray = [];

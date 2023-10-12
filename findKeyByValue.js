@@ -1,6 +1,5 @@
-// search for key(genre) by value(tvShow)
 const findKeyByValue = function(object, value) {
-// loop through keys(genres) and assign keys(genres) to variable category
+// loop through keys and assign keys to variable category
   for (const category of Object.keys(object)) {
     // if given value(tvShow) is found in the object(bestTVShowsByGenre) by loop
     if (value === object[category]) {

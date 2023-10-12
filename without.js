@@ -1,5 +1,3 @@
-/* Function that takes a source array and an array with values to remove.  If any of the values
-from itemsToRemove are found in source, return newArray with out values. */
 const without = function(source, itemsToRemove) {
   /* Declare a new array which equals source.filter (a method to filter out what you want) 
   inside the filter method we are asking the new array to = everything that is NOT found 

@@ -1,23 +1,3 @@
-// Test Functions:
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = function(eqArrays) {
-  if (eqArrays !== true) {
-    console.log(`🛑🛑🛑`);
-  } else {
-    console.log(`✅✅✅`);
-  }
-};
 /* Function that takes the values from an array and the values inside nested arrays inside that array 
 and moves them to newArray */
 const flatten = function(array) {
@@ -39,7 +19,6 @@ const flatten = function(array) {
 return newArray
 }
 
-// Test Code:
+module.exports = flatten;
 
-console.log(flatten([1, 2, [3, 4], 5, [6]]))
 

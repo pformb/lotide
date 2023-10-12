@@ -1,5 +1,3 @@
-// letterPositions
-
 // Function to find the letters in a sentence string and their index positions, put them into an object. 
 const letterPositions = function(sentence) {
   // Delcare a variable called results which is an empty object 
@@ -25,5 +23,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-// Test code:
-console.log(letterPositions("lighthouse in the house"));
+module.exports = letterPositions;

@@ -1,13 +1,3 @@
-// countLetters.js
-// Test Function:
-const assertEqual = function(actual, expected) {
-  
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
 /* Function that takes each letter from a string and puts them into a object as a key, then counts 
 the number of that letter in string and adds them as the value of key */
 const countLetters = function(string) {
@@ -33,6 +23,5 @@ const countLetters = function(string) {
 
 };
 
-// Test code:
+module.exports = countLetters;
 
-console.log(countLetters("lighthouse in the house"));

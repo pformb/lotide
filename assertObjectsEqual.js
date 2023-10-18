@@ -16,12 +16,3 @@ const assertObjectsEqual = function(actual, expected) {
 module.exports = assertObjectsEqual;
   
 
-// const shirtObject = { color: "red", size: "medium" };
-// const anotherShirtObject = { size: "medium", color: "red" };
-// assertObjectEqual(shirtObject , anotherShirtObject);
-
-// const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
-// assertObjectEqual(shirtObject , longSleeveShirtObject);
-
-
-
